@@ -28,7 +28,7 @@ This project showcased the powerful capabilities of React, which proved instrume
 ## GitHub Pages
 
 You can check out this
-[link to the project on GitHub Pages!](https://garzaivan.github.io/se_project_spots/)
+[link to the project on GitHub Pages!](https://garzaivan.github.io/se_project_react/)
 
 Currently, two official plugins are available:
 
