@@ -52,7 +52,7 @@
   width: 100%;
 }
 
-.modal__form {
+.modal__type_add-garment {
   display: flex;
   flex-direction: column;
   width: 100%;

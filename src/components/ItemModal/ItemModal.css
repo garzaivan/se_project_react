@@ -18,7 +18,7 @@
   opacity: 1;
 }
 
-.modal__content_type_image {
+.modal__type_preview-image {
   position: relative;
   padding: 0;
   max-width: 498px;

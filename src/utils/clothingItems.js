@@ -1,12 +1,12 @@
 export const weatherOptions = [
   {
-    day: false,
+    day: true,
     condition: "clear",
     url: new URL("../images/clear.svg", import.meta.url).href,
   },
   {
     day: true,
-    condition: "cloudy",
+    condition: "clouds",
     url: new URL("../images/cloudy.svg", import.meta.url).href,
   },
   {
@@ -16,7 +16,7 @@ export const weatherOptions = [
   },
   {
     day: true,
-    condition: "storm",
+    condition: "thunderstorm",
     url: new URL("../images/storm.svg", import.meta.url).href,
   },
   {
@@ -30,13 +30,13 @@ export const weatherOptions = [
     url: new URL("../images/fog.svg", import.meta.url).href,
   },
   {
-    day: true,
+    day: false,
     condition: "clear",
     url: new URL("../images/clear-night.svg", import.meta.url).href,
   },
   {
     day: false,
-    condition: "cloudy",
+    condition: "clouds",
     url: new URL("../images/cloudy-night.svg", import.meta.url).href,
   },
   {
@@ -46,7 +46,7 @@ export const weatherOptions = [
   },
   {
     day: false,
-    condition: "storm",
+    condition: "thunderstorm",
     url: new URL("../images/storm-night.svg", import.meta.url).href,
   },
   {
