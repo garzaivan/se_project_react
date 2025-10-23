@@ -50,6 +50,7 @@
 .modal__close-icon {
   object-fit: cover;
   width: 100%;
+  cursor: pointer;
 }
 
 .modal__type_add-garment {
@@ -98,14 +99,16 @@
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .modal__radio-input {
   margin-right: 8px;
+  cursor: pointer;
 }
 
 .modal__submit-btn {
-  background-color: #0000004d;
+  background-color: #000000;
   color: #ffffff;
   border-radius: 4px;
   border-style: none;
@@ -115,4 +118,10 @@
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
+  transition: background-color 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+.modal__submit-btn:hover {
+  background-color: #00000099;
 }

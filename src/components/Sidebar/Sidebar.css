@@ -1,0 +1,21 @@
+.sidebar__profile {
+  display: flex;
+  gap: 16px;
+  margin: 19px auto auto 0;
+}
+
+.sidebar__username {
+  margin: 16px 0;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.sidebar__avatar {
+  border: 1px solid #00000080;
+  border-radius: 50%;
+  object-fit: cover;
+  height: 56px;
+  display: block;
+}

@@ -2,6 +2,7 @@
   width: 325px;
   height: 328px;
   position: relative;
+  color: rgba(0, 0, 0, 0.6);
   display: flex;
   border: 1px;
   border-color: rgba(0, 0, 0, 0.3);
@@ -24,7 +25,7 @@
 }
 
 .card__image {
-  object-fit: fill;
+  object-fit: cover;
   width: 100%;
   border-radius: 12px;
 }
