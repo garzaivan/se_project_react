@@ -6,15 +6,20 @@ export default function ToggleSwitch() {
   const { handleToggleSwitchChange, currentTemperatureUnit } = useContext(
     CurrentTemperatureUnitContext
   );
+
+  const isCelsius = currentTemperatureUnit === "C";
+
   return (
     <label className="toggle-switch">
       <input
         name="toggle-switch"
-        onChange={handleToggleSwitchChange}
         type="checkbox"
         className="toggle-switch__checkbox"
+        onChange={handleToggleSwitchChange}
+        checked={isCelsius}
       />
       <span className="toggle-switch__circle"></span>
+
       <span
         className={`toggle-switch__text toggle-switch__text_F ${
           currentTemperatureUnit === "F"
@@ -24,6 +29,7 @@ export default function ToggleSwitch() {
       >
         F
       </span>
+
       <span
         className={`toggle-switch__text toggle-switch__text_C ${
           currentTemperatureUnit === "C"

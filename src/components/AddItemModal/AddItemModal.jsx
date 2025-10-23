@@ -59,6 +59,7 @@ const AddItemModal = ({ isOpen, onClose, onAddItem }) => {
             id="hot-selection"
             value="hot"
             onChange={handleChange}
+            required
           />
           Hot
         </label>
@@ -70,6 +71,7 @@ const AddItemModal = ({ isOpen, onClose, onAddItem }) => {
             id="warm-selection"
             value="warm"
             onChange={handleChange}
+            required
           />
           Warm
         </label>
@@ -81,6 +83,7 @@ const AddItemModal = ({ isOpen, onClose, onAddItem }) => {
             id="cold-selection"
             value="cold"
             onChange={handleChange}
+            required
           />
           Cold
         </label>

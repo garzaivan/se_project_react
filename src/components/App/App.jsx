@@ -9,7 +9,7 @@ import Profile from "../Profile/Profile";
 import ItemModal from "../ItemModal/ItemModal";
 import ConfirmationModal from "../ConfirmationModal/ConfirmationModal";
 import { getWeather, filterWeatherData } from "../../utils/weatherApi";
-import { coordinates, APIkey } from "../../utils/constants";
+import { coordinates, apiKey } from "../../utils/constants";
 import CurrentTemperatureUnitContext from "../../contexts/CurrentTemperatureUnitContext";
 import { getItems, addItem, deleteItem } from "../../utils/clothingItems";
 
@@ -44,13 +44,16 @@ function App() {
   };
 
   const handleDeleteItem = (id) => {
-    deleteItem(id)
+    return deleteItem(id)
       .then(() => {
         setClothingItems((prevItems) =>
           prevItems.filter((item) => item._id !== id)
         );
       })
-      .catch(console.error);
+      .catch((err) => {
+        console.error("Failed to delete item:", err);
+        throw err;
+      });
   };
 
   const onAddItem = (inputValues) => {
@@ -73,7 +76,7 @@ function App() {
   };
 
   useEffect(() => {
-    getWeather(coordinates, APIkey)
+    getWeather(coordinates, apiKey)
       .then((data) => {
         const filteredData = filterWeatherData(data);
         setWeatherData(filteredData);
