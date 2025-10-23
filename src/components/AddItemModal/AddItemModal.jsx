@@ -32,10 +32,11 @@ const AddItemModal = ({ isOpen, onClose, onAddItem }) => {
           maxLength="30"
           value={values.name}
           onChange={handleChange}
+          autoComplete="off"
           required
         />
       </label>
-      <label htmlFor="image-input" className="modal__label">
+      <label htmlFor="clothing-imageUrl" className="modal__label">
         Image
         <input
           name="imageUrl"

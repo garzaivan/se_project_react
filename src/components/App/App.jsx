@@ -141,7 +141,6 @@ function App() {
           card={selectedCard}
           onClose={closeActiveModal}
           handleConfirmationClick={handleConfirmationClick}
-          // handleDeleteItem={handleDeleteItem}
         />
         <ConfirmationModal
           name="confirmation-modal"

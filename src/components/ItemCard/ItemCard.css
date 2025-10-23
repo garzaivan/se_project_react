@@ -1,27 +1,30 @@
 .card {
   width: 325px;
   height: 328px;
+  box-sizing: border-box;
   position: relative;
   color: rgba(0, 0, 0, 0.6);
   display: flex;
-  border: 1px;
-  border-color: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 12px;
+  overflow: hidden;
 }
 
 .card__name {
   position: absolute;
   top: 15px;
-  left: 125px;
+  left: 50%;
+  transform: translateX(-50%);
   margin: 0;
   padding: 2px 12px;
   background-color: #fff;
-  max-width: 73px;
-  max-height: 24px;
   border-radius: 4px;
   text-align: center;
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
+  white-space: normal;
+  word-break: break-word;
 }
 
 .card__image {

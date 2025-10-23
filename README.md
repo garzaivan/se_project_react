@@ -21,6 +21,11 @@
 
 This project showcased the powerful capabilities of React, which proved instrumental in creating a well-structured and visually appealing layout. One of the most exciting aspects was being able to work on the mark up and css styles with little effort, being able to use JSX as a new and useful tool to work on files that can easily be modified. Using Chrome Dev Tools as my digital laboratory, I could instantly test and visualize how different grid configurations would affect the layout across various screen sizes. This hands-on approach to testing and adjusting the grid layout made the development process feel like an engaging experiment, where each modification helped create a more polished and professional final design.
 
+## Project Pitch Video
+
+Check out [this video](https://drive.google.com/file/d/1bgj1kWI8fG0OeyOleS5LvQUGf5fK_Q6w/view?usp=drive_link), where I describe my
+project and some challenges I faced while building it.
+
 ## Figma
 
 [Link to the project on Figma](https://www.figma.com/design/F03bTb81Pw8IDPj5Y9rc5i/Sprint-10-Project--WTWR?node-id=311-2032&t=Zkr7n1ETxzGKs0fi-0)

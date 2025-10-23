@@ -1,12 +1,6 @@
 {
   "items": [
     {
-      "_id": 0,
-      "name": "Beanie",
-      "weather": "cold",
-      "imageUrl": "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/wtwr-project/Beanie.png?etag=bc10497cc80fa557f036e94f9999f7b2"
-    },
-    {
       "_id": 1,
       "name": "Boot",
       "weather": "cold",
@@ -23,12 +17,6 @@
       "name": "Coat",
       "weather": "cold",
       "imageUrl": "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/wtwr-project/Coat.png?etag=298717ed89d5e40b1954a1831ae0bdd4"
-    },
-    {
-      "_id": 4,
-      "name": "Dress",
-      "weather": "hot",
-      "imageUrl": "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/wtwr-project/Dress.png?etag=1f9cd32a311ab139cab43494883720bf"
     },
     {
       "_id": 5,
@@ -73,18 +61,6 @@
       "imageUrl": "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/wtwr-project/Shorts.png?etag=d728c496643f610de8d8fea92dd915ba"
     },
     {
-      "_id": 12,
-      "name": "Skirt",
-      "weather": "hot",
-      "imageUrl": "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/wtwr-project/Skirt.png?etag=27a6bea7e1b63218820d615876fa31d1"
-    },
-    {
-      "_id": 13,
-      "name": "Sneakers",
-      "weather": "warm",
-      "imageUrl": "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/wtwr-project/Sneakers.png?etag=3efeec41c1c78b8afe26859ca7fa7b6f"
-    },
-    {
       "_id": 14,
       "name": "Sunglasses",
       "weather": "hot",
@@ -103,28 +79,52 @@
       "imageUrl": "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/wtwr-project/T-Shirt.png?etag=44ed1963c44ab19cd2f5011522c5fc09"
     },
     {
-      "name": "Sandals",
-      "imageUrl": "https://images.unsplash.com/photo-1622920799137-86c891159e44?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870",
-      "weather": "warm",
+      "name": "North Face Jacket",
+      "imageUrl": "https://images.unsplash.com/photo-1610486506519-62f96b347095?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1740",
+      "weather": "cold",
       "_id": 17
     },
     {
-      "name": "Sandals2",
-      "imageUrl": "https://plus.unsplash.com/premium_photo-1724763204533-f865aa38d396?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1740",
-      "weather": "warm",
+      "name": "Blue Beanie",
+      "imageUrl": "https://images.unsplash.com/photo-1672908615254-71a0b373eaba?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1160",
+      "weather": "cold",
       "_id": 18
     },
     {
-      "name": "Sandals3",
-      "imageUrl": "https://images.unsplash.com/photo-1625563206627-7e713d1ac0a8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870",
+      "name": "Air Force One Sneakers",
+      "imageUrl": "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=930",
       "weather": "warm",
       "_id": 19
     },
     {
-      "name": "Sandals",
-      "imageUrl": "https://images.unsplash.com/photo-1724092130936-fb1b5f9921ad?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1740",
-      "weather": "warm",
+      "name": "SouthSide T-Shirt",
+      "imageUrl": "https://images.unsplash.com/photo-1578346021958-c58829af708b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1374",
+      "weather": "hot",
       "_id": 20
+    },
+    {
+      "name": "ShowTime Sweatshirt",
+      "imageUrl": "https://images.unsplash.com/photo-1711118882380-085ab7f04f92?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687",
+      "weather": "warm",
+      "_id": 21
+    },
+    {
+      "name": "RayBan Sunglasses",
+      "imageUrl": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1160",
+      "weather": "hot",
+      "_id": 22
+    },
+    {
+      "name": "BirdWatchers Cap",
+      "imageUrl": "https://images.unsplash.com/photo-1742271057369-8e86665f43cc?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687",
+      "weather": "hot",
+      "_id": 23
+    },
+    {
+      "name": "Shorts",
+      "imageUrl": "https://plus.unsplash.com/premium_photo-1674828600712-7d0caab39109?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2169",
+      "weather": "warm",
+      "_id": 24
     }
   ]
 }
