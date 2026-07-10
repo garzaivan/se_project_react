@@ -47,7 +47,7 @@ function App() {
     return deleteItem(id)
       .then(() => {
         setClothingItems((prevItems) =>
-          prevItems.filter((item) => item._id !== id)
+          prevItems.filter((item) => item._id !== id),
         );
       })
       .catch((err) => {
@@ -85,6 +85,7 @@ function App() {
 
     getItems()
       .then((data) => {
+        console.log("getItems response:", data);
         setClothingItems(data.reverse());
       })
       .catch(console.error);
